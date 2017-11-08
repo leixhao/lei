@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>FullScreen Backgrounds - fullPage.js</title>
+		<meta name="author" content="Alvaro Trigo Lopez" />
+		<meta name="description" content="fullPage full-screen navigation and sections control menu." />
+		<meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+		<meta name="Resource-type" content="Document" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/page.css" />
+		<link rel="stylesheet" type="text/css" href="css/photo.css" />
+
+		<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+		<script type="text/javascript" src="js/examples.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+
+					anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage'],
+					navigation: true,
+					navigationPosition: 'right',
+					navigationTooltips: ['第一周', '第二周', '第三周', '第四周', '第五周', '第六周', '第七周']
+				});
+			});
+		</script>
+
+	</head>
+
+	<body style="overflow-y:auto;">
+		<header>
+			<div class="comwidth clearfix">
+				<div class="fl h-logo">
+					<img src="img/h-logo.png" />
+				</div>
+				<div class="fr">
+					<nav class="nav">
+						<a href="Index.html">HOME</a>
+						<a href="Ticket.html">TICKET</a>
+						<a href="Photo.html" class="active">照片</a>
+						<a href="Contact.html">CONTACT US</a>
+								<a href="http://weibo.com/zombieiscoming?from=myfollow_all "  target="_blank" >
+							<img src="img/sina-logo.png" />
+						</a>
+					</nav>
+				</div>
+		</header>
+
+		<article class="photo">
+			<div class="bw" style="width: 938px; margin: 0 auto;">
+				<div class="scroll">
+					<div id="fullpage">
+						<div class="section " id="section0">
+							<div class="unit">
+								<div class="ru clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p1.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p2.jpg " />
+									</div>
+								</div>
+								<div class="rd clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p3.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p4.jpg " />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="section" id="section1">
+							<div class="unit">
+								<div class="ru clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p1.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p2.jpg " />
+									</div>
+								</div>
+								<div class="rd clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p3.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p4.jpg " />
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="section" id="section2">
+							<div class="unit">
+								<div class="ru clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p1.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p2.jpg " />
+									</div>
+								</div>
+								<div class="rd clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p3.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p4.jpg " />
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="section" id="section3">
+							<div class="unit">
+								<div class="ru clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p1.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p2.jpg " />
+									</div>
+								</div>
+								<div class="rd clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p3.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p4.jpg " />
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="section" id="section4">
+							<div class="unit">
+								<div class="ru clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p1.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p2.jpg " />
+									</div>
+								</div>
+								<div class="rd clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p3.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p4.jpg " />
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="section" id="section5">
+							<div class="unit">
+								<div class="ru clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p1.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p2.jpg " />
+									</div>
+								</div>
+								<div class="rd clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p3.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p4.jpg " />
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="section" id="section6">
+							<div class="unit">
+								<div class="ru clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p1.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p2.jpg " />
+									</div>
+								</div>
+								<div class="rd clearfix ">
+									<div class="r-l fl ">
+										<img src="img/p3.jpg " />
+									</div>
+									<div class="r-r fr ">
+										<img src="img/p4.jpg " />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</article>
+		<footer>
+		<div class="bw tw clearfix ">
+			<div class="fl conact-us  buy-qr">
+				<img src="img/buy-qr.jpg">
+				<p>购票二维码</p>
+			</div>
+			<div class="fl company ">
+				<p>主办单位：华熙国际文化体育发展有限公司</p>
+				<p>承办单位：北京汉志天下网络科技有限公司</p>
+				<p>协办单位：北京众宣互联企业策划有限公司</p>
+			</div>
+
+			<div class="fr weichat t-chat ">
+				<img src="img/weichat.jpg " />
+				<p>官方微信</p>
+			</div>
+		</div>
+	</footer>
+	</body>
+
+</html>

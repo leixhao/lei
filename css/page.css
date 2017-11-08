@@ -1,0 +1,213 @@
+article {
+	position: relative;
+}
+/*-------Contact------------*/
+
+.bw {
+	width: 938px;
+	margin: 0 auto;
+}
+.ticket .c-ct h3 {
+	color: #fffefe;
+}
+.c-fm {
+	margin: 50px 0;
+}
+.c-fm .name input {
+	width: 424px;
+	height: 39px;
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 0 5px;
+}
+.c-fm .email {
+	margin-top: 50px;
+}
+.c-fm .email input {
+	width: 100%;
+	height: 39px;
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 0 5px;
+}
+.c-fm .advice {
+	margin-top: 50px;
+}
+.c-fm .advice textarea {
+	resize: none;
+	width: 100%;
+	height: 331px;
+	padding-top: 10px;
+	padding-left: 5px;
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+.c-ct button {
+	margin-left: 865px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 39px;
+	border-radius: 6px;
+	border: none;
+	background-color: #FFFEFE;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	font-weight: bold;
+}
+/*-------Ticket------------*/
+
+.t-re {
+	margin-bottom: 20px;
+}
+.t-re dl {
+	margin-top: 20px;
+}
+.t-re dt {
+	color: #e00000;
+	font-size: 18px;
+	font-family: "microsoft yahei", arial;
+}
+.t-re dd {
+	display: list-item;
+	font-size: 14px;
+	font-family: "microsoft yahei", arial;
+	color: #9f9f9f;
+	line-height: 24px;
+	list-style-type: disc;
+}
+.t-re .agt {
+	padding-left: 10px;
+	margin-top: 30px;
+	width: 928px;
+	height: 179px;
+	background-color: #fff;
+	color: #444444;
+	overflow-y: auto;
+}
+.t-re .agt h3 {
+	text-align: center;
+}
+.t-re .agt p {
+	line-height: 20px;
+	font-size: 12px;
+}
+.t-re .chek {
+	margin-top: 20px;
+	color: #9f9f9f;
+	font-size: 14px;
+}
+.t-re .chek input {
+	position: relative;
+	top: 4px;
+	width: 17px;
+	height: 17px;
+	margin-right: 5px;
+}
+.t-re button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 39px;
+	border-radius: 6px;
+	border: none;
+	background-color: #FFFEFE;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	font-weight: bold;
+}
+.buy-ticket {
+	margin: 20px 0;
+}
+.buy-ticket a {
+	margin-right: 88px;
+}
+.zombuy {} .manbuy {} .buy-qr {
+	margin-left: px;
+	text-align: center;
+}
+.t-chat {
+	margin-right: 0;
+	text-align: center
+}
+.t-chat p,
+.buy-qr p {
+	line-height: 25px;
+}
+.tw {
+	width: 760px;
+	margin: 0 auto;
+}
+/*-------Photo------------*/
+
+.photo .comwidth {
+	position: relative;
+}
+.photo .scroll {
+	margin: 0px auto;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 578px;
+	margin-bottom: 22px;
+}
+.photo .po {
+	width: 100%;
+	margin-top: 40px;
+	position: relative;
+}
+.photo .dtils {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 600px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.photo .dtils {
+	display: none;
+}
+.photo .dtils img {
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 80%;
+	height: 80%;
+}
+.photo .lst {
+	position: absolute;
+	top: 230px;
+	right: 0px;
+}
+#menu li a {
+	background: url(../img/lst-li.png) no-repeat right center;
+	padding-right: 20px;
+	color: #999999;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+#menu li a {
+	text-decoration: none;
+	color: #000;
+}
+#menu li.active a {
+	background: url(../img/lst-li-hover.png)no-repeat right center;
+	color: #999;
+}
+#menu li a:hover {
+	text-decoration: none;
+	color: #999;
+}
+.photo .unit {
+	width: 100%;
+	height: 838px;
+}
+.photo .unit .rd {
+	margin-top: 20px;
+}
+.bold {
+	font-size: 14px;
+	font-weight: bold;
+	color: #b4021f;
+}

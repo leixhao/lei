@@ -1,0 +1,218 @@
+/*  clear float code */
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	zoom: 1;
+}
+/* float code */
+
+.fl {
+	float: left;
+	display: inline;
+}
+.fr {
+	float: right;
+	display: inline;
+}
+h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei", arial;
+}
+/*  ------common code--------- */
+
+body {
+	background: url(../img/body-b.jpg) repeat left top;
+	background-position: -217px 0;
+}
+.comwidth {
+	width: 1163px;
+	margin: 0 auto;
+}
+/*  ------header code--------- */
+
+header {
+	height: 125px;
+}
+.h-logo {
+	margin-top: 10px;
+	margin-left: 113px;
+}
+nav {
+	height: 50px;
+	margin-top: 75px;
+	margin-right: 14px;
+}
+nav a {
+	display: inline-block;
+	margin: 0 44px;
+	font-family: "microsoft yahei", arial;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 50px;
+}
+nav a:hover {
+	color: #b4021f;
+}
+nav .active {
+	color: #b4021f;
+}
+/*  ------article code--------- */
+
+.sbox {
+	width: 1163px;
+	height: 531px;
+	position: relative;
+}
+.box {
+	width: 1163px;
+	height: 531px;
+	position: relative;
+	margin: 0 auto;
+	background: #ccc;
+	overflow: hidden;
+}
+.box ol {
+	position: absolute;
+	left: 571px;
+	bottom: 5px;
+	z-index: 2;
+}
+.box ol li {
+	float: left;
+	margin-right: 3px;
+	display: inline;
+	cursor: pointer;
+	background: #fff;
+	border: none;
+	padding: 2px 6px;
+	color: #d94b01;
+	font-family: arial;
+	font-size: 12px;
+}
+.box .active {
+	padding: 3px 8px;
+	background: #000;
+	position: relative;
+	bottom: 2px;
+}
+.box ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.box ul li {
+	width: 1136px;
+	height: 531px;
+	float: left;
+}
+.box ul img {
+	float: left;
+	width: 1163px;
+	height: 531px;
+}
+.box p {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-family: arial;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	background: #333;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 60px;
+	z-index: 2;
+	cursor: pointer;
+}
+.box .prev {
+	left: 10px;
+}
+.box .next {
+	right: 10px;
+}
+.sbox .buy-icon {
+	position: absolute;
+	bottom: -200px;
+	right: -14px;
+	z-index: 2;
+	cursor: pointer;
+}
+.adv {
+	width: 834px;
+	margin: 46px auto;
+}
+.content {
+	font-family: "microsoft yahei";
+	width: 832px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.content h2 {
+	font-size: 24px;
+	color: #b4021f;
+	text-align: center;
+	margin: 10px auto;
+}
+.content p {
+	font-size: 14px;
+	color: #9f9f9f;
+	line-height: 30px;
+}
+.conact .map {
+	width: 750px;
+	margin: 50px auto;
+}
+.conact .map img {
+	display: block;
+	width: 476px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.conact .map p {
+	font-size: 12px;
+	font-family: "microsoft yahei", arial;
+	color: #fff;
+	line-height: 30px;
+}
+.c-man {
+	width: 606px;
+	margin: 10px auto;
+	color: #fff;
+	font-family: "microsoft yahei", arial;
+	font-size: 12px;
+	line-height: 30px;
+}
+.c-man .r {
+	margin-bottom: 50px;
+}
+/*  ------footer  code--------- */
+
+footer {
+	width: 100%;
+	border-top: 1px solid #b4021f;
+	height: 140px;
+	padding-top: 15px;
+}
+footer p {
+	color: #9d9d9d;
+	margin-bottom: 18px;
+	font-family: simsun;
+	font-size: 12px;
+}
+.company {
+	margin-top: 20px;
+	margin-left: 164px;
+	margin-right: 90px;
+}
+.weichat {
+	margin-right: 207px;
+}
